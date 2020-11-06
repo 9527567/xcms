@@ -21,7 +21,7 @@ faahko_xod <- findChromPeaks(
     faahko_od, param = CentWaveParam(noise = 10000, snthresh = 40,
                                      prefilter = c(3, 10000)))
 od_x <- faahko_od
-mzr <- matrix(c(335, 335, 344, 344), ncol = 2, byrow = TRUE)
+mzr <- matrix(c(335, 335, 342, 324), ncol = 2, byrow = TRUE)
 od_chrs <- chromatogram(od_x, mz = mzr)
 xod_x <- faahko_xod
 pdp <- PeakDensityParam(sampleGroups = rep(1, 3))
