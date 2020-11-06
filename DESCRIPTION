@@ -2,7 +2,7 @@ Package: xcms
 Version: 3.13.0
 Title: LC-MS and GC-MS Data Analysis
 Authors@R: c(
-	   person(given = "Colin A.", family = "Smith",
+	   person(given = "zhangzw", family = "China",
 	   email = "csmith@scripps.edu",
 	   role = "ctb"),
 	   person(given = "Ralf", family = "Tautenhahn",
